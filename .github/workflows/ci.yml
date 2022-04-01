@@ -3,9 +3,9 @@ name: 自动绿色
 on:
   push:
     branches:
-      - master
-#  schedule:
-#    - cron: "0 0 * * *"
+      - main
+  schedule:
+      - cron: "*/1 * * * *"
 
 jobs:
   autogreen:
