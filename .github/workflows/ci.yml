@@ -1,4 +1,4 @@
-name: 自动绿色
+name: 自动每天绿色
 
 on:
   push:
