@@ -3,7 +3,7 @@ name: 自动每天绿色
 on:
   push:
     branches:
-      - main
+      - master
   schedule:
       - cron: "*/1 * * * *"
 
